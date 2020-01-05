@@ -73,8 +73,9 @@ a {
 
 .block-text {
 	position: relative;
-	top: 12px;
+	top: 15px;
 	left: 185px;
+	font-size: 9px;
 }
 .text-indent {
 	left: 205px;
@@ -87,10 +88,10 @@ a {
 }
 .block-text__choice {
 	display: none;	
-	width: 65px;
+	width: 45px;
 	background: #4cb1ca;
 	position: relative;
-	left: 80px;	
+	left: 40px;	
 }
 .block-text__choice a {
 	color: white;	
@@ -122,8 +123,8 @@ a {
 	background: rgb(65, 153, 211);
 }
 .link-indent {
-	left: 75px;
-	width: 45px;
+	left: 38px;
+	width: 31px;
 }
 .blok-administration {
 	display: flex;
@@ -132,6 +133,7 @@ a {
 	height: 100%;
 	justify-content: space-around;
 	align-items: center;
+	font-size: 9px;
 }
 .menu-administration a {
 	color: white;
@@ -142,13 +144,100 @@ a {
 	justify-content: space-around;
 
 }
-.trait-link {
-	padding-left: 10px;
+.menu-administration__link {
+	padding-left: 15px;
 }
-.trait-link::after {
+.menu-administration__link::after {
 	content: '|';
-	padding-left: 10px
+	padding-left: 15px
 }
-.trait-link-cancel::after {
+.menu-administration__link_trait_disabled::after {
 	content: '';
+}
+.header-big {
+	display: flex;
+	flex-direction: row;
+	max-width: 100%;
+	height: 107px;
+
+}
+.logo {
+	display: flex;	
+	width: 26%;
+	height: 100%;
+	font-size: 26px;
+	font-weight: bold;
+	color: #656565;	
+	align-items: center;
+	justify-content: center;	
+	padding-left: 100px;
+}
+.menu {
+	display: flex;	
+	width: 30%;
+	height: 100%;
+	font-size: 10px;
+	font-weight: bold;	
+	align-items: center;
+	justify-content: start;
+}
+.menu a {
+	color: #656565;	
+}
+.link-padding {
+	padding-left: 25px;	
+}
+.link-border:hover {
+	text-decoration: underline;
+}
+.block-shopping {
+	display: flex;
+	flex-direction: row;
+	width: 44%;
+	height: 100%;	
+	
+}
+.form {
+	width: 30%;
+	height: 100%;	
+	position: relative;
+	
+}
+.form__input {
+	position: absolute;
+	top: 40px;
+	width: 173px;
+	height: 28px;
+}
+
+.form__button {
+	position: absolute;
+	top: 42px;
+	right: 10px;
+	width: 25px;
+	height: 25px;
+	cursor: pointer;
+	border: none;
+	outline: none;
+	background: white;
+}
+.box-cart {
+	display: flex;	
+	width: 70%;
+	height: 100%;
+}
+.box-cart__img {
+	padding: 38px 0 0 14px;
+}
+.box-cart__text {
+	font-size: 10px;
+	font-weight: bold;
+	padding: 48px 0 0 14px;
+}
+.block-slider {	
+width: 100%;
+height: 475px;
+}
+.block-slider__img {
+	position: relative;
 }
