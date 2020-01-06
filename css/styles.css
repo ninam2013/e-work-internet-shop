@@ -275,7 +275,7 @@ height: 475px;
 	width: 100%;	
 }
 .box-line_margin-top {
-	margin-top: 25px;
+	margin-top: 18px;
 }
 .box-wrap-element {
 	width: 237px;
@@ -288,7 +288,7 @@ height: 475px;
 	flex-direction: column;
 	width: 233px;
 	height: 318px;
-	border: 2px solid #656565;
+	border: 2px solid rgba(101, 101, 101, 0.1);
 	
 }
 .box-wrap-element_margin {
@@ -323,7 +323,7 @@ height: 475px;
 }
 .new {
 	position: absolute;	
-	right: -1px;
+	right: -0px;
 	top: -4px;
 }
 .sale-pic {
