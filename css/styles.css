@@ -289,11 +289,11 @@ height: 475px;
 	width: 233px;
 	height: 318px;
 	border: 2px solid #656565;
-	padding: 2px;
+	
 }
-.box-element_margin {
-	margin-left: 28px;
-}
+.box-wrap-element_margin {
+	margin-left: 23px;
+} 
 .box-element__img {
 	padding: 6px 0 0 6px;
 }
@@ -323,6 +323,11 @@ height: 475px;
 }
 .new {
 	position: absolute;	
-	right: 1px;
+	right: -1px;
+	top: -4px;
+}
+.sale-pic {
+	position: absolute;	
+	left: -4px;
 	top: -4px;
 }
