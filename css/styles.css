@@ -75,7 +75,7 @@ a {
 	position: relative;
 	top: 15px;
 	left: 185px;
-	font-size: 9px;
+	font-size: 13px;
 }
 .text-indent {
 	left: 205px;
@@ -88,10 +88,11 @@ a {
 }
 .block-text__choice {
 	display: none;	
-	width: 45px;
+	width: 60px;
+	height: 300px;
 	background: #4cb1ca;
 	position: relative;
-	left: 40px;	
+	left: 65px;	
 }
 .block-text__choice a {
 	color: white;	
@@ -123,8 +124,8 @@ a {
 	background: rgb(65, 153, 211);
 }
 .link-indent {
-	left: 38px;
-	width: 31px;
+	left: 60px;
+	width: 40px;
 }
 .blok-administration {
 	display: flex;
@@ -133,7 +134,7 @@ a {
 	height: 100%;
 	justify-content: space-around;
 	align-items: center;
-	font-size: 9px;
+	font-size: 13px;
 }
 .menu-administration a {
 	color: white;
@@ -165,7 +166,7 @@ a {
 	display: flex;	
 	width: 26%;
 	height: 100%;
-	font-size: 26px;
+	font-size: 36px;
 	font-weight: bold;
 	color: #656565;	
 	align-items: center;
@@ -176,7 +177,7 @@ a {
 	display: flex;	
 	width: 30%;
 	height: 100%;
-	font-size: 10px;
+	font-size: 14px;
 	font-weight: bold;	
 	align-items: center;
 	justify-content: start;
@@ -230,14 +231,99 @@ a {
 	padding: 38px 0 0 14px;
 }
 .box-cart__text {
-	font-size: 10px;
+	font-size: 14px;
 	font-weight: bold;
 	padding: 48px 0 0 14px;
+	color:#656565 ;
 }
 .block-slider {	
 width: 100%;
 height: 475px;
 }
 .block-slider__img {
-	position: relative;
+	
+}
+.section {
+	display: flex;
+	width: 100%;
+	height: 100%;	
+}
+
+.box-wrap {
+	display: flex;
+	flex-direction: column;
+	width: 948px;
+	height: 1895px;
+	margin-top: 29px;
+	padding-left: 188px;
+	
+}
+.title {
+	width: 100%;
+	height: 38px;
+	font-weight: bold;
+	font-size: 24px;
+	color: #656565;	
+}
+.box-product {
+	display: flex;
+	flex-direction: column;
+}
+.box-line {
+	display: flex;
+	flex-direction: row;
+	width: 100%;	
+}
+.box-line_margin-top {
+	margin-top: 25px;
+}
+.box-wrap-element {
+	width: 237px;
+	height: 322px;
+}
+.box-element {
+	display: flex;
+	flex-direction: column;
+	width: 233px;
+	height: 318px;
+	border: 2px solid #656565;
+}
+/* .box-element:hover {
+transform: scale(1.1);
+transition: .4s;
+} */
+.box-element_margin {
+	margin-left: 28px;
+}
+.box-element__img {
+	padding: 6px 0 0 6px;
+}
+.box-element__sale {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+.sale {
+	width: 74%;	
+	font-size: 14px;
+	color: #656565;
+	padding: 18px 0 0 12px;
+}
+.text-green {
+	color: #97c14e;
+	font-size: 18px;
+}
+.text-line-through {
+	text-decoration: line-through;
+}
+.icon-basket {
+	display: flex;
+	padding: 12px 6px 0 0;
+	justify-content: flex-end;
+	width: 26%;
+}
+.new {
+	position: absolute;
+	background: transparent;
+	right: 10px;
 }
