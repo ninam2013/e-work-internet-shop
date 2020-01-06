@@ -1,3 +1,10 @@
 $('.block-slider').slick({
-    // autoplay: true,
+    autoplay: true,
+});
+$('.slider-promo').slick({
+    autoplay: true,
+    arrows: false,
+    dots: true,      
+  slidesToShow: 1,
+  adaptiveHeight: true
 });
