@@ -265,6 +265,9 @@ height: 475px;
 	font-size: 24px;
 	color: #656565;	
 }
+.title_margin-top {
+	margin-top: 55px;
+}
 .box-product {
 	display: flex;
 	flex-direction: column;
