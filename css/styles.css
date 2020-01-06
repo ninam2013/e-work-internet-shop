@@ -280,6 +280,8 @@ height: 475px;
 .box-wrap-element {
 	width: 237px;
 	height: 322px;
+	position: relative;
+	
 }
 .box-element {
 	display: flex;
@@ -287,11 +289,8 @@ height: 475px;
 	width: 233px;
 	height: 318px;
 	border: 2px solid #656565;
+	padding: 2px;
 }
-/* .box-element:hover {
-transform: scale(1.1);
-transition: .4s;
-} */
 .box-element_margin {
 	margin-left: 28px;
 }
@@ -323,7 +322,7 @@ transition: .4s;
 	width: 26%;
 }
 .new {
-	position: absolute;
-	background: transparent;
-	right: 10px;
+	position: absolute;	
+	right: 1px;
+	top: -4px;
 }
