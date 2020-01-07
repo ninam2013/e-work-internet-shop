@@ -1,3 +1,4 @@
+
 $('.block-slider').slick({
     autoplay: true,
 });
@@ -8,3 +9,5 @@ $('.slider-promo').slick({
   slidesToShow: 1,
   adaptiveHeight: true
 });
+
+new WOW().init();
