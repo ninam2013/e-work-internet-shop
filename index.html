@@ -20,7 +20,7 @@
     
 </head>
 <body>    
-<header>
+<header class="header">
     <div class="header-small">
         <div class="block-language animated slideInLeft">
             <div class="block-text" > Language: <a class="text-white" href="#">English</a> 
@@ -55,34 +55,36 @@
         </div>
     </div>
     <div class="header-big">
-        <div class="logo animated slideInLeft"> LEO SHOP</div>
-        <nav class="menu animated slideInLeft">
-            <ul>
-                <li>
-                    <a class="link-border" href="#">HOME</a>
-                    <a class="link-padding link-border" href="#">WOMEN</a>
-                    <a class="link-padding link-border" href="#">MEN</a>
-                    <a class="link-padding link-border" href="#">OTHER</a>
-                    <a class="link-padding link-border" href="#">PURCHASE</a>
-                </li>
-            </ul>
-        </nav>
-        <div class="block-shopping">
-            <form class="form animated slideInRight">
-                <input class="form__input" placeholder="search.." type="search"> 
-                <button class="form__button" type="submit"><img src="images/loupe.png" alt="картинка" ></button>
-            </form>
-            <div class="box-cart animated slideInRight">
-                <a class="box-cart__img" href="#"><img src="images/button.png" alt=""></a>
-                <a class="box-cart__img" href="#"><img src="images/button1.png" alt=""></a>
-                <a class="box-cart__text" href="#">CART (0)</a>
-            </div>
+        <div class="block-menu">
+            <div class="logo animated slideInLeft"> LEO SHOP</div>
+            <nav class="menu animated slideInLeft">
+                <ul>
+                    <li>
+                        <a class="link-border" href="#">HOME</a>
+                        <a class="link-padding link-border" href="#">WOMEN</a>
+                        <a class="link-padding link-border" href="#">MEN</a>
+                        <a class="link-padding link-border" href="#">OTHER</a>
+                        <a class="link-padding link-border" href="#">PURCHASE</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
+            <div class="block-shopping">
+                <form class="form animated slideInRight">
+                    <input class="form__input" placeholder="search.." type="search"> 
+                    <button class="form__button" type="submit"><img src="images/loupe.png" alt="icon" ></button>
+                </form>
+                <div class="box-cart animated slideInRight">
+                    <a class="box-cart__img" href="#"><img src="images/button.png" width="35" alt="icon"></a>
+                    <a class="box-cart__img" href="#"><img src="images/button1.png" width="35" alt="icon"></a>
+                    <a class="box-cart__text" href="#">CART (0)</a>
+                </div>
+            </div>        
     </div>
 </header>
     <div class="block-slider">
-        <div class="block-slider__img"><img src="images/slider.jpg" width="100%" alt="foto"></div>                
-        <div class="block-slider__img"><img src="images/slider.jpg" width="100%" alt="foto"></div>
+        <div><img src="images/slider.jpg" min-width="320" alt="foto"></div>                
+        <div><img src="images/slider.jpg" min-width="320" alt="foto"></div>
     </div>
 <section class="section">
     <div class="box-wrap">
@@ -241,7 +243,7 @@
                         </div>
                     </div>
     <!-- ------------------------NEXT PRODUCT ------------------------------------------- -->
-                    <div class="box-wrap-element box-wrap-element_margin wow zoomIn"data-wow-offset= "150">
+                    <div class="box-wrap-element box-wrap-element_margin wow zoomIn" data-wow-offset= "150">
                         <div class="new-pic"><img src="images/new.png" alt="foto-new"></div>
                         <div class="box-element">
                             <div class="box-element__img">
@@ -269,7 +271,7 @@
 <!-- ========================= NEW LINE 4 ================================================ -->
                 <div class="box-line box-line_margin-top">
     <!-- ------------------------PREW PRODUCT ------------------------------------------- -->
-                    <div class="box-wrap-element wow zoomIn"data-wow-offset= "50">
+                    <div class="box-wrap-element wow zoomIn" data-wow-offset= "50">
                         <div class="new-pic"><img src="images/new.png" alt="foto-new"></div>                                        
                         <div class="box-element">                        
                                 <div class="box-element__img">
@@ -287,7 +289,7 @@
                         </div>
                     </div>
     <!-- ------------------------NEXT PRODUCT ------------------------------------------- -->
-                    <div class="box-wrap-element box-wrap-element_margin wow zoomIn"data-wow-offset= "100">                                           
+                    <div class="box-wrap-element box-wrap-element_margin wow zoomIn" data-wow-offset= "100">                                           
                         <div class="box-element">
                             <div class="box-element__img">
                                 <img src="images/product_11.jpg" alt="foto-product">                       
@@ -390,13 +392,13 @@
     </div>
     <div class="sidebar">
         <div class="slider-promo">
-            <div class="slider-promo__img"><img src="images/slider_small.jpg" width="100%" alt="foto">
+            <div class="slider-promo__img"><img src="images/slider_small.jpg" alt="foto">
                 <span class="slider-promo__text"><a href="#">Check it out</a></span>
             </div>                
-            <div class="slider-promo__img"><img src="images/slider_small.jpg" width="100%" alt="foto">
+            <div class="slider-promo__img"><img src="images/slider_small.jpg" alt="foto">
                 <span class="slider-promo__text"><a href="#">Check it out</a></span>
             </div>
-            <div class="slider-promo__img"><img src="images/slider_small.jpg" width="100%" alt="foto">
+            <div class="slider-promo__img"><img src="images/slider_small.jpg" alt="foto">
                 <span class="slider-promo__text"><a href="#">Check it out</a></span>
             </div>
         </div>
@@ -435,7 +437,7 @@
             <div class="block-facebook__title"> FACEBOOK</div>
             <div class="block-facebook__button">
                 <p>20000 Members</p>
-                <button class="button-like"> </button>
+                <div class="button-like"> </div>
             </div>
             <div class="block-facebook__face">
                 <table class="table">
@@ -519,13 +521,10 @@
         </div>   
     </div>    
 </footer>
-
     
 </body>
     <script type="text/javascript" src="js/jquery-3.4.1.js"></script> 
     <script type="text/javascript" src="js/wow.min.js"></script>    
     <script type="text/javascript" src="slick/slick.min.js"></script>
-    <script type="text/javascript" src="js/script.js"></script>
-    
-        
+    <script type="text/javascript" src="js/script.js"></script>       
 </html>

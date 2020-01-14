@@ -1,6 +1,7 @@
 
 $('.block-slider').slick({
-    autoplay: true,
+    autoplay: true, 
+    dots: false,     
 });
 $('.slider-promo').slick({
     autoplay: true,
