@@ -60,6 +60,9 @@ a {
 	position: relative;
 	z-index: 2;
 }
+.block-language {
+	z-index: 2;
+}
 .header-big {
 	position: relative;
 	z-index: 1;
@@ -119,7 +122,7 @@ a {
 	display: none;	
 	width: 60px;	
 	background: #4cb1ca;
-	position: relative;
+	position: absolute;
 	left: 65px;	
 }
 .block-text__choice a {
