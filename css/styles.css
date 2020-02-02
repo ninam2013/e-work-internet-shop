@@ -175,6 +175,10 @@ a {
 .menu-administration__link {
 	padding-left: 15px;
 }
+.menu-administration__link:hover {
+	text-decoration: underline;
+}
+
 
 .menu-administration__link::after {
 	content: '|';
@@ -246,10 +250,10 @@ a {
 
 .form__button {
 	position: absolute;
-	top: 42px;
-	right: 5px;
-	width: 25px;
-	height: 25px;
+	top: 45px;
+	right: 7px;
+	width: 20px;
+	height: 20px;
 	cursor: pointer;
 	border: none;
 	outline: none;
@@ -267,8 +271,10 @@ a {
 	font-size: 14px;
 	font-weight: bold;
 	padding: 48px 0 0 14px;
-	color:#656565 ;
-	
+	color:#656565 ;	
+}
+.box-cart__text:hover {
+	text-decoration: underline;	
 }
 .block-slider {		
 	width: 100%;	
@@ -276,9 +282,9 @@ a {
 .section {
 	display: flex;
 	flex-direction: row;	
-	max-width: 1200px;	
+	width: 100%;	
 	height: 100%;
-	
+	padding: 0 191px 0 191px;
 }
 .title {
 	width: 100%;	
@@ -286,6 +292,7 @@ a {
 	font-size: 24px;
 	color: #656565;	
 	padding-bottom: 23px;
+	padding-left: 30px;
 }
 .title_margin-top {
 	margin-top: 55px;
@@ -565,6 +572,9 @@ color: white;
 	width: 100%;
 	height: 84%;	
 }
+.hover-underline:hover {
+	text-decoration: underline;	
+}
 .block-information__link a {
 	color: white;
 }
@@ -606,8 +616,7 @@ color: white;
 	justify-content: center;
 	align-items: center;
 	width: 50%;
-	height: 100%;
-	
+	height: 100%;	
 }
 .block-item__menu {
 	display: flex;
@@ -615,6 +624,9 @@ color: white;
 	align-items: center;
 	width: 50%;
 	height: 100%;
+}
+.effect-zoom:hover {
+transform: scale(1.1);
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
 	.logo {
@@ -633,8 +645,14 @@ color: white;
 	.form {		
 		padding-left: 30px;		
 	}
+	.section {
+		padding: 0 100px 0 100px;
+	}
 	.sidebar {		
 		padding: 0 30px 0 26px;	
+	}
+	.block-help {
+		padding-left: 20px;
 	}
 	.block-footer {
 		
@@ -695,11 +713,15 @@ color: white;
 		padding-right: 20px;
 		border-top: 2px solid rgb(214, 208, 208);		
 	}
-
+	.section {
+		padding: 0 60px 0 60px;
+	}
 	.sidebar {		
 		padding: 0 30px 0 26px;	
 	}
-
+	.block-help {
+		padding-left: 20px;
+	}
 	.footer {		
 		min-height: 792px;		
 		}
@@ -791,13 +813,17 @@ color: white;
 	.form {		
 		padding-left: 0px;		
 	}
+	.section {
+		padding: 0 20px 0 20px;
+	}
 	.sidebar {		
 		padding: 0 30px 0 26px;
 		display: none;	
 	}
 	.block-help {		
 		flex-direction: column;			
-		height: 200px;		
+		height: 200px;
+		padding-left: 30px;		
 	}
 	.block-help__auto {		
 		width: 100%;
@@ -853,12 +879,12 @@ color: white;
 	}
 	.header-small {
 		flex-direction: column;	
-		width: 100%;
-		height: 310px;				
+		width: 100%;		
+		height: 310px;
+		flex-wrap: wrap;				
 	}	
 	.block-language {
-		flex-direction: row;
-		width: 100%;
+		flex-direction: row;		
 		height: 80px;				
 	}	
 	 .block-text {		
@@ -867,7 +893,7 @@ color: white;
 		font-size: 22px;
 	}
 	.text-indent {
-		left: 40px;
+		left: 110px;
 	}	
 	.block-text__choice {
 		display: none;	
@@ -995,6 +1021,9 @@ color: white;
 	.block-slider {		
 		width: 100%;
 		display: none;				
+	}
+	.section {
+		padding: 0 20px 0 20px;
 	}	
 	.sidebar {
 		display: none;						
@@ -1002,12 +1031,13 @@ color: white;
 	.title {		
 		font-size: 34px;
 		padding-left: 20px;
-	}		
+	}		 
 	.block-help {		
 		flex-direction: column;
 		width: 100%;	
-		height: 200px;
-		font-size: 30px;		
+		height: 250px;
+		font-size: 21px;
+		padding-left: 20px;		
 	}
 	.block-help__auto {		
 		width: 100%;		
@@ -1047,14 +1077,15 @@ color: white;
 		
 		.block-facebook__text {			
 			font-size: 18px;		
-			padding-top: 20px;		
+			padding-top: 35px;		
 		}
 		.block-twitter {			
 			align-items: center;			
 			padding-left: 0px;		
 		}
 		.block-twitter__title {			
-			font-size: 25px;		
+			font-size: 25px;
+			margin-top: 30px;		
 		}
 		.block-twitter__item {			
 			font-size: 18px;		
@@ -1073,7 +1104,8 @@ color: white;
 			margin: 0 auto;			
 		}
 		.block-information__titel {			
-			font-size: 25px;	
+			font-size: 25px;
+			margin-top: 30px;	
 		}		
 		.block-contact {
 			display: flex;
@@ -1100,7 +1132,8 @@ color: white;
 		.block-item__copyright {			
 			width: 100%;
 			height: 100px;				
-			order: 2;			
+			order: 2;
+			text-align: center;			
 		}
 		.block-item__menu {			
 			width: 100%;
