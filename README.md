@@ -1,1 +1,13 @@
-# e-work-internet-shop. This is an online store that is made up of a psd layout downloaded from the Internet. P.S. since I'm still learning, there may be mistakes.
+# Проект: LEO SHOP 
+
+### Описание
+Верстку производил по макету созданного в photoshop и скаченного с просторов интернета 
+
+### Используемые технологии:
+* HTML 5
+* CSS 3
+* git
+* Slider - slick
+* Анимация создана с помощью плагина WOW.js
+
+[ссылка на страничку](https://ninam2013.github.io/e-work-internet-shop/)
